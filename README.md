@@ -1,27 +1,26 @@
-# Astro Starter Kit: Blog
+# Blog How To
 
-```sh
-npm create astro@latest -- --template blog
-```
+## How to edit for dummies
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+1. use gitHub desktop app to pull from main
+2. open VSCODE and make your changes
+3. in the terminal, use command `npm run dev` to see your changes on local
+4. use github desktop app to commit and push your changes
+5. Done!
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Where are the files?!
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+- blog posts: `src/pages/blog/[blog-post]`
+- home page: `src/pages/index.astro`
+- header: `src/components/Header.astro`
+- footer: `src/components/Footer.astro`
+- title of site: `src/consts.ts`
+- images: `public/`
+- the rest: I'm sure you'll figure it out
 
-Features:
+## Astro Stuff
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## 🚀 Project Structure
+### 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -46,7 +45,7 @@ The `src/content/` directory contains "collections" of related Markdown and MDX 
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-## 🧞 Commands
+### 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -59,10 +58,10 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+### 👀 Want to learn more?
 
 Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-## Credit
+### Credit
 
 This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
