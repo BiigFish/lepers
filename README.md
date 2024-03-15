@@ -16,7 +16,7 @@
 - footer: `src/components/Footer.astro`
 - title of site: `src/consts.ts`
 - images: `public/`
-- the rest: I'm sure you'll figure it out
+- the rest: I'm sure you'll figure it out.
 
 ## Astro Stuff
 
