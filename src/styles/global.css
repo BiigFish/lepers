@@ -5,7 +5,7 @@
  */
 
 :root {
-	--accent: #e6b4b2;
+	--accent: #db8986;
 	--accent-dark: #740e04;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
@@ -28,6 +28,7 @@
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
+
 }
 body {
 	font-family: 'Atkinson', sans-serif;
